@@ -15,6 +15,9 @@ h1 {
     width: 60vmin;
     border: 5px solid gray;
 }
+.cell {
+    background-color: white;
+}
 footer {
     position: fixed;
     left: 0;
