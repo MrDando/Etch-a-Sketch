@@ -6,7 +6,12 @@ function createGrid(x) {
         let cell = document.createElement("div");
         cell.classList.add('cell')
         container.appendChild(cell)
+        cell.addEventListener('mouseenter', paintCell);
     }
+}
+
+function paintCell(e) {
+    e.target.style["background-color"] = "black";
 }
 
 let container = document.querySelector('#container');
